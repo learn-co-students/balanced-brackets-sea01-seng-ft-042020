@@ -17,5 +17,3 @@ const isBalanced = (equation) => {
     // Verify working is now empty therefore the equation is balanced
     return (working.length === 0 ? true : false)
 }
-
-isBalanced("{}")
